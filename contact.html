@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hi,it's me!</title>
+	
+	<!--font cdn-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+
+	<!--style css-->
+	<link rel="stylesheet" href="style.css"/>
+	
+	<!--main js-->
+	<link href="main.js"/>
+	
+	<!--gallery page html-->
+	<link href="gallery.html"/>
+	
+	<!--blog page html-->
+	<link href="blog.html"/>
+	
+	<!--index page html-->
+	<link href="index.html"/>
+	
+	<!--about page html-->
+	<link href="about.html"/>
+	
+	<style>
+	body{
+		background-image: url("assests/img 33.jpg");
+	}
+	</style>
+</head>
+
+<body>
+	
+	<!--header-->
+	<header id="header" class="bg-light">
+		<nav class="container navbar">
+			<a href="/index.html" class="nav-brand text-dark">
+				Hi,it's me!
+				
+				<!--button click-->
+				<div class="click">
+					<ul class="navbar-nav">
+						<a href="index.html" class="nav-link">HOME</a>
+						<a href="blog.html" class="nav-link">BLOG</a>
+						<a href="gallery.html" class="nav-link">GALLERY</a>
+						<a href="about.html" class="nav-link">ABOUT</a>
+						<a href="contact.html" class="nav-link">CONTACT</a>
+					</ul>
+				</div>
+				
+				<!--button click-->
+				<div class="click">
+					<ul class="navbar-nav">
+						<a href="https://msng.link/o/?njihrauf_=ig" class="nav-link"><i class="fab fa-instagram"></i></a>
+						<a href="https://msng.link/o/?njihrauf_=tw" class="nav-link"><i class="fab fa-twitter"></i></a>
+						<a href="https://msng.link/o/?176170510=wa" class="nav-link"><i class="fab fa-whatsapp"></i></a>
+						<a href="https://msng.link/o/?Mochi;-;#1190=dc" class="nav-link"><i class="fab fa-discord"></i></a>
+					</ul>
+				</div>
+			</a>
+		</nav>
+	</header>
+	<!--/header-->
+	
+	<br><br>
+	<div class="wrapper">
+	  <h2>Contact</h2>
+	  <div id="error_message">
+
+	  </div>
+	  <form action="" id="myform" onsubmit = "return validate();">
+		<div class="input_field">
+			<input type="text" placeholder="Name" id="name">
+		</div>
+		<div class="input_field">
+			<input type="text" placeholder="Subject" id="subject">
+		</div>
+		<div class="input_field">
+			<input type="text" placeholder="Phone" id="phone">
+		</div>
+		<div class="input_field">
+			<input type="text" placeholder="Email" id="email">
+		</div>
+		<div class="input_field">
+			<textarea placeholder="Message" id="message"></textarea>
+		</div>
+		<div class="btn">
+			<input type="submit">
+		</div>
+	  </form>
+	</div>
+
+</body>
+</html>

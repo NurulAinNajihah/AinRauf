@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Homemade+Apple&family=Oswald&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/* 	font-family: 'Comfortaa', cursive;
+	font-family: 'Homemade Apple', cursive;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Satisfy', cursive;
+	font-family: 'Shadows Into Light', cursive;
+*/
+
+
+/* root styling */
+
+:root{
+	-light: #DADFDB;
+	-secondary: #FEA94F;
+	-dark: #46494E;
+    -primary_color: #889DA2;
+    -secondary_color: #E08E79;
+    -border : #DADFDB;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+*>*{
+	box-sizing: border-box;
+}
+
+
+
+/* global styling */
+	
+.container{
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: auto;
+}
+
+.img-fluid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+	border-radius: 8px;
+}
+	
+.img-me{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+}
+
+.img-top{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 300px;
+	border-radius: 8px;
+
+}
+
+/* footer about me*/
+.footer-title{
+	font-family: 'Shadows Into Light', cursive;
+	color: #46494E;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.secondary-title{
+	font-family: 'Comfortaa', cursive;
+	color:  #46494E;
+	
+}
+
+
+.info{
+	color: #889DA2;
+	font-weight: bold;
+}
+	
+	.table{
+		font-family: 'Comfortaa', cursive;
+		color:  #46494E;
+	}
+	
+
+
+/* footer top stories*/	
+.object-fit .px-1{
+	height: 130px;
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer-title{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.px-1{
+	float: right;
+	background:  #DADFDB;
+}
+
+.text-title{
+	font-family: 'Comfortaa', cursive;
+	color: #46494E;
+
+}
+	
+.fas{
+		color: #889DA2; 
+	}
+	
+.article{
+	font-family: 'Comfortaa', cursive;
+	color: #46494E;
+}
+	
+/* navigation menu */
+.navbar{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.nav-brand{
+	font-family: 'Satisfy', cursive;
+	color: #E08E79; 
+	font-weight: bold;
+	align-self: center;
+	font-size: 32px;
+}
+
+.click{
+	align-self: center;
+}
+
+.nav-link{
+	font-size: 20px;
+	margin: 15px;
+	color: #46494E;
+	font-family: 'Oswald', sans-serif;
+}
+
+.nav-link:hover{
+	color: #FEA94F;
+}
+
+/* gallery posts */
+	
+#site-main{
+	margin-top: 8em;
+	}
+
+#posts{
+	margin-bottom: 5em;
+}
+
+.grid{
+	margin: 0 auto;
+	background-color: #DADFDB;
+}
+
+.grid .grid-item{
+	
+	width: calc(33.3333% - 20px);
+	margin-bottom: 3em;
+}
+	
+.text-img{
+	font-family: 'Comfortaa', cursive;
+	color: #46494E;
+	text-align: center;
+}
+	
+.btn{
+	padding:15px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #E08E79;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/*blog page*/
+	
+.blog-title{
+	font-family: 'Shadows Into Light', cursive;
+	color: #46494E;
+	font-weight: bold;
+	font-size: 30px;
+}
+	
+.img-blog{
+	height: 150;
+	width: 150;
+}
+	
+.form{
+	font-family: 'Comfortaa', cursive;
+
+}
+
+.click-footer{
+	background-color: #E08E79;
+}
+
+.copy{
+	color:#46494E;
+	font-family: 'Oswald', sans-serif;
+}
+
+.mark{
+	color:#46494E;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*validation form*/
+	
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: #fece0c;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
